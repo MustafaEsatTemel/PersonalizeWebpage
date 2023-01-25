@@ -1,0 +1,207 @@
+html{
+    position: relative;
+    display: block;
+    overflow-x: hidden;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+}
+
+body{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+}
+
+#HomeFullPage{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0 auto;
+    height: auto;
+    width: 100%;
+    background-color: #FFF;
+    font-size: 2rem;
+}
+
+#HomeHeader{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    border: none;
+    outline: none;
+    padding: 0;
+    margin: 0 auto;
+    height: 100vh;
+    width: 100%;
+    color: white;
+}
+
+@media only screen and (max-width:575px){ /* XS */
+	#HomeHeader nav{
+        padding-left: 8px;
+	}
+    #HomeHeader #HeaderTypeWriter{
+        padding-left: 8px;
+    }
+}
+
+#HomeHeader nav a.nav-link{
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+#HomeHeader nav a.nav-link:hover{
+
+    color: skyblue !important;
+    scale: 1.09;
+    
+}
+
+#HeaderTypeWriter{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 100%;
+    text-align: center;
+    transform: translate(-50%,-50%);
+    -webkit-transform: translate(-50%,-50%);
+    -moz-transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+    -o-transform: translate(-50%,-50%);
+
+}
+#HeaderTypeWriter .typewrite{
+    color: #fff;
+    font-weight: bolder;
+    text-shadow: -1px -1px 0px black,
+    3px 3px 0px black,
+    6px 6px 0px black;
+}
+
+#HomeFullPage #HomeMain{
+    position: relative;
+    display: block;
+    padding: 0;
+    margin: 0;
+    outline: none;
+    border: none;
+    border-top: 2px solid rgba(153,48,91,0.31);
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+    background-color: black;
+}
+#HomeFullPage #HomeMain .MainArea{
+    position: relative;
+    display: block;
+    padding: 1rem;
+    margin: 0;
+    outline: none;
+    border: none;
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+#HomeFullPage #HomeMain .MainArea .title{
+    text-align: center;
+    margin-top: 20px;
+    margin-bottom: 5px;
+    color: white;
+}
+#HomeFullPage #HomeMain .MainArea .title-border{
+    border: 1px solid rosybrown;
+    width: 20px;
+    height: 1px;
+    margin: 0 auto;
+}
+#HomeFullPage #HomeMain .MainArea .content{
+    color: white;
+    padding-top: 20px;
+}
+#HomeFullPage #HomeMain .MainArea .Learning-Languages{
+    color: yellowgreen;
+}
+
+/* Footer */
+#HomeFullPage #footer{
+    background-color: black;
+    border-top: 2px solid rgba(153,48,91,0.31);
+    color: white;
+    margin: 0;
+    padding-top: 7px;
+    font-size: 1.5rem;
+}
+#HomeFullPage #footer a{
+    text-decoration: none;
+    color: white;
+    transition: all .5s;
+    -webkit-transition: all .5s;
+    -moz-transition: all .5s;
+    -ms-transition: all .5s;
+    -o-transition: all .5s;
+}
+#HomeFullPage #footer a:hover{
+    color: skyblue;
+}
+#HomeFullPage #footer .column{
+    padding: 5px;
+}
+#HomeFullPage #footer .column-title{
+    border-bottom: 1px solid gray;
+}
+@media only screen and (min-width:1200px){ /* XL */
+	#footer .column{
+        width:25%;
+		min-width:25%;
+		max-width:25%;
+	}
+}
+@media only screen and (min-width:992px) and (max-width:1199px){ /* L */
+	#footer .column{
+        width:25%;
+		min-width:25%;
+		max-width:25%;
+	}
+}
+@media only screen and (min-width:768px) and (max-width:991px){ /* M */
+	#footer .column{
+        width:50%;
+		min-width:50%;
+		max-width:50%;
+       
+	}
+}
+@media only screen and (min-width:576px) and (max-width:767px){ /* S */
+	#footer .column{
+        width:50%;
+		min-width:50%;
+		max-width:50%;
+	}
+    #footer .column.myproject{
+        clear: both;
+    }
+}
+@media only screen and (max-width:575px){ /* XS */
+	#footer .column{
+        width:100%;
+		min-width:100%;
+		max-width:100%;
+	}
+}
